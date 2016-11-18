@@ -210,6 +210,8 @@ img{
 }
 
 .service__title{
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
   text-align: center;
   padding: 10px
 }
@@ -524,6 +526,13 @@ footer p{
   .social__media__footer{
     display: none;
   }
+  .nav__item{
+    border: none;
+  }
+  .nav__list{
+    width: 100%;
+  }
+
 }
 
 @media screen and (min-width: 611px) {
@@ -621,4 +630,23 @@ footer p{
 .calendar{
   width: 60%;
   margin: auto;
+}
+iframe{
+  width: 99%;
+  padding-bottom: 30px;
+}
+
+.experiences{
+  padding-bottom: 30px;
+}
+.education__school, .job__company__name{
+  font-size: 18px;
+  padding: 5px;
+  color: #000;
+}
+.job__company__name, .education__school{
+  margin: 0;
+}
+.experience{
+  margin-bottom: 10px;
 }
